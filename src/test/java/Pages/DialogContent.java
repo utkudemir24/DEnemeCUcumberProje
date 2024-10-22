@@ -10,6 +10,7 @@ public class DialogContent  extends ParentPage{
         PageFactory.initElements(GWD.getDriver(),this);
     }
 
+
     @FindBy(xpath = "(//div[@id='loginPanel']//a)[2]")
     public WebElement registerLink;
 

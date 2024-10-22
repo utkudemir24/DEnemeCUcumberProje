@@ -33,6 +33,7 @@ public class RegisterSteps {
         dc.myClick(dc.registerButton);
     }
 
+
     @Then("User should register successfully")
     public void userShouldRegisterSuccessfully() {
         dc.LoginContainsText(dc.successMessage, "success");
