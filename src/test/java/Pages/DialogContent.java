@@ -54,6 +54,24 @@ public class DialogContent  extends ParentPage{
     public WebElement successMessage;
 
 
+    //Login(US602)
+    @FindBy(xpath = "//input[@name='username']")
+    public WebElement usernameLogin;
+
+    @FindBy(xpath = "//input[@name='password']")
+    public WebElement passwordLogin;
+
+    @FindBy(xpath = "(//div[@class='login'])[3]/input")
+    public WebElement buttonLogin;
+
+    @FindBy(xpath = "//p[@class='smallText']")
+    public WebElement successMessageLogin;
+
+
+
+
+
+
 
 
 
