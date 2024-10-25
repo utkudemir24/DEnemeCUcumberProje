@@ -68,6 +68,76 @@ public class DialogContent  extends ParentPage{
     public WebElement successMessageLogin;
 
 
+    //Paying Bilss(US603)
+    @FindBy(xpath = "//input[@name='username']")
+    public WebElement usernamePaying;
+
+    @FindBy(xpath = "//input[@name='password']")
+    public WebElement passwordPaying;
+
+    @FindBy(xpath = "(//div[@class='login'])[3]/input")
+    public WebElement buttonPaying;
+
+    @FindBy(xpath = "//div[@id='billpayForm']/h1")
+    public WebElement succesMessagePaying;
+
+    @FindBy(xpath = "//input[@name='payee.name']")
+    public WebElement payenamePaying;
+
+    @FindBy(xpath = "//input[@name='payee.address.street']")
+    public  WebElement adressPaying;
+
+    @FindBy(xpath = "//input[@name='payee.address.city']")
+    public  WebElement cityPaying;
+
+    @FindBy(xpath = "//input[@name='payee.address.state']")
+    public  WebElement statePaying;
+
+    @FindBy(xpath = "//input[@name='payee.address.zipCode']")
+    public  WebElement zipcodePaying;
+
+    @FindBy(xpath = "//input[@name='payee.phoneNumber']")
+    public  WebElement numberPaying;
+
+    @FindBy(xpath = "//input[@name='payee.accountNumber']")
+    public  WebElement accountPaying;
+
+    @FindBy(xpath = "//input[@name='verifyAccount']")
+    public  WebElement verifyaccountPaying;
+
+    @FindBy(xpath = "//input[@name='amount']")
+    public  WebElement amountPaying;
+
+    @FindBy(xpath = "//select[@name='fromAccountId']")
+    public  WebElement fromPaying;
+
+    @FindBy(xpath = "//input[@value='Send Payment']")
+    public  WebElement sendpaymentPaying;
+
+    @FindBy(xpath = "//div[@id='billpayResult']/h1")
+    public WebElement successMessageodemetamamPaying;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
